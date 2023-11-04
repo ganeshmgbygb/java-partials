@@ -11,7 +11,7 @@ public class PrintingPrimeNumbers {
 	public static void prime(int n) {
 		int i=1;
 		int count;
-		
+		System.out.println("printing prime numbers 1 to "+n+" numbers");
 		while(i<=n) 
 		{
 			count=0;
