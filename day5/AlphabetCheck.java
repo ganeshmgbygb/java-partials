@@ -10,10 +10,10 @@ public class AlphabetCheck {
 		     maxnumber(a);
 	}
        public static void maxnumber(char a ) {
-    	   if((a>='A'&& a <='Z' && a>='a') ||( a>='a'&&a<='z')) {
+    	   if((a>='A'&& a <='Z') ||( a>='a'&&a<='z')) {
 	        	System.out.println("it ia an Alphabet");
 	        }else {
-	        	System.out.println("it is not aAlphabet ");
+	        	System.out.println("it is not Alphabet ");
 	        }
        }
 }
